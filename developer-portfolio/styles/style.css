@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }   
 .title-size{
     font-size: 50px;
@@ -9,6 +10,8 @@ body{
 }
 .section-one{
     display: flex;
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
 }
 .half-width{
     width: 50%;
@@ -18,4 +21,22 @@ body{
     width: 80%;
     margin-top: 20px;
     margin-left: 100px;
+}
+.hire-me-button{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 40px;
+    color:white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.hire{
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    background-color: tomato;
+    border-radius: 10px;
+    padding: 10px 40px;
+  
 }
