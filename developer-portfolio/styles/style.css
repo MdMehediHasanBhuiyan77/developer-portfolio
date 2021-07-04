@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+    background-image: url(../images/v880-kul-11.jpg);
 }   
 .title-size{
     font-size: 50px;
@@ -13,7 +14,8 @@ body{
 }
 .section-one{
     display: flex;
-    background-image: url(../images/top-banner.png);
+    background-image: url(../images/1.png);
+    
     background-repeat: no-repeat;
     margin-bottom: 30px;
 }
