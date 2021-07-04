@@ -5,6 +5,9 @@ body{
 .title-size{
     font-size: 50px;
 }
+.title-size-two{
+    font-size: 40px;
+}
 .title-color{
     color: orange;
 }
@@ -31,10 +34,41 @@ body{
     color: white;
     border-radius: 6px;
 }
-
 .dream-big{
     display: flex;
     background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 30px;
+}
+.div-text{
+    display: flex;
+    margin: 50px;
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    margin: 0px;
+    
+}
+.div-inside{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 150px;
+    
+}
+#one{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon , tomato);
+    border-image-slice: 1;
+}
+#two{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue , cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
